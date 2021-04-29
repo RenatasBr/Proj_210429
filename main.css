@@ -3,33 +3,26 @@
     }
 
     .container{
-        border-radius: 25px;
-        border: 7px solid white ;
         margin-top: 20px;
         margin-bottom: 40px;
         }
+    
+    .row * {
+        border-radius: 12px !important;
+        }    
 
     .col-sm-3{
-            padding-top: 25px;
-            border-top-left-radius:18px !important;
-            border-top-right-radius:18px !important;
-            border-bottom-left-radius:0 !important;
-            border-bottom-right-radius:0 !important;
-            
+        padding-top: 25px;
         }
+
     .col-sm-9{
-            border-bottom-left-radius:18px !important;
-            border-bottom-right-radius:18px !important;
-            border-top-left-radius: 0 !important;
-            border-top-right-radius:0 !important;
-            padding-bottom: 25px;
+        padding-bottom: 25px;
         }
 
     .center{
         text-align: center;
-            }
+        }
 
     .btn{
-        background-color:darkblue;
-        border-radius: 8px;
+        background-color: darkblue;
         }
