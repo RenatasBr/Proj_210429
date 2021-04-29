@@ -10,20 +10,41 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-    
+    <div class="container rounded" style="margin-top: 15px; align-content: center;">
         <div class="row">
             <div class="col-sm-3 bg-warning text-dark">
                 <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="oops.."> 
                 <h2>Contact Us</h2>
                 <h4>We would love to hear from you !</h4>
             </div>
-            <div class="col-sm-9 bg-secondary text-white">
-              2 of 2 colmn
+            <div class="col-sm-9 bg-light text-dark">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">First Name:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter your Name here"></textarea>
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Last Name:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter your Last Name here"></textarea>
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">E-mail:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email here">
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Comment:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                </form>
+                <button class="btn btn-primary" type="submit">Submit</button>
             </div>
-            
         </div>
-         
     </div>
 </body>
 </html>
