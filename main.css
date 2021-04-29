@@ -35,5 +35,8 @@
 
     .btn{
         background-color: darkblue;
-        -moz-box-ordinal-group:;
+        }
+    
+    .btn:hover{
+            background-color: red !important;
         }
