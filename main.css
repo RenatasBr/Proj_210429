@@ -1,4 +1,15 @@
     body{
-        background-color: #25274D;
+        background-color: #25274D;    
     }
 
+    .container{
+        padding-top: 55px;
+        padding-bottom: 45px;
+        height: 900px;
+    }
+
+    .btn{
+        background-color:darkblue;
+        border: darkblue;
+        border-radius: 5px;
+        }
