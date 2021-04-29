@@ -12,7 +12,7 @@
         }    
 
     .col-sm-3{
-        padding-top: 25px;
+        padding-top: 15px;
         }
 
     .col-sm-9{
@@ -23,6 +23,17 @@
         text-align: center;
         }
 
+    .rot_txt{
+        padding-top: 5px;
+        padding-bottom: 8px;
+        transform: function;
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        writing-mode: lr-tb;
+        }
+
     .btn{
         background-color: darkblue;
+        -moz-box-ordinal-group:;
         }
