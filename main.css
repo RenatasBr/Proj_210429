@@ -2,7 +2,7 @@
         background-color: darkblue;
         font-variant: small-caps;
         font-weight: bold;
-        font-family: monospace;    
+        font-family: monospace ,"Courier New", "Lucida Console";    
     }
 
     .container{
