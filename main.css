@@ -1,5 +1,8 @@
     body{
-        background-color: darkblue;    
+        background-color: darkblue;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-family: monospace;    
     }
 
     .container{
@@ -17,6 +20,7 @@
 
     .col-sm-9{
         padding-bottom: 25px;
+        font-size: 22px;
         }
 
     .center{
